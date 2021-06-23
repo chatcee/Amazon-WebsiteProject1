@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AmazonWebsiteProject1]">
+  <test thread-count="5" name="Project1(failed)">
+    <classes>
+      <class name="com.Project1.TestCases.VisitWebsitePage">
+        <methods>
+          <include name="visitWebsitePage"/>
+        </methods>
+      </class> <!-- com.Project1.TestCases.VisitWebsitePage -->
+    </classes>
+  </test> <!-- Project1(failed) -->
+</suite> <!-- Failed suite [AmazonWebsiteProject1] -->
